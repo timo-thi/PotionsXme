@@ -1,0 +1,23 @@
+{
+  "input": {
+    "context": {
+      "violets": {
+        "are": {
+          "blue": 1
+        }
+      },
+      "roses": {
+        "are": {
+          "red": 2
+        }
+      }
+    },
+    "rule": {
+      "equals": [
+        {"var": ["roses.are.red"]},
+        {"increment": ["violets.are.blue"]}
+      ]
+    }
+  },
+  "output": true
+}

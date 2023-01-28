@@ -1,0 +1,12 @@
+{
+  "input": {
+    "context": {},
+    "rule": {
+      "and": [
+        true,
+        false
+      ]
+    }
+  },
+  "output": false
+}

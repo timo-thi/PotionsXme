@@ -1,0 +1,15 @@
+{
+  "input": {
+    "context": {
+      "category_id": 25
+    },
+    "rule": {
+      "if": [
+        {"equals": [{"var": ["category_id"]}, 25]},
+        "hello",
+        "world"
+      ]
+    }
+  },
+  "output": "hello"
+}

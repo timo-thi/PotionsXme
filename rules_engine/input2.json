@@ -1,0 +1,12 @@
+{
+  "input": {
+    "context": {"potions": true},
+    "rule": {
+      "and": [
+        true,
+        {"var": ["potions"]}
+      ]
+    }
+  },
+  "output": true
+}
